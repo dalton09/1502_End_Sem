@@ -18,17 +18,17 @@ public class Tv {
 			return this.pow;
 	}
 
-	public void printPower()
+	public int printPower()
 	{
 		if(this.pow == true)
 		{
-			System.out.println("On");
+			return 1;
 		}
 		
 		else
 		{
 			
-			System.out.println("Off");
+			return 0;
 		}
 	}
 
@@ -56,4 +56,8 @@ public class Tv {
 		return this.channel;
 	}
 
+	public void setChannel(int chno)
+	{
+		this.channel=chno;
+	}
 }

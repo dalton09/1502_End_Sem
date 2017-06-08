@@ -7,7 +7,9 @@ public class Main {
 		Owner o1 = new Owner(1,A1);
 
 		o1.Auto.channelUp();
+		o1.Auto.tvOn();
 		
+		o1.Auto.getTvPower();
 	}
 
 }

@@ -1,7 +1,7 @@
 
 public class Ac{
 
-	public int temp;
+	public int temp=20;
 	protected boolean pow=false;
 
 
@@ -53,6 +53,9 @@ public class Ac{
 		return this.temp;
 	}
 	
-	
+	public void setTemp(int t)
+	{
+		this.temp=t;
+	}	
 
 }
