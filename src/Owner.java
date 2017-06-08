@@ -2,15 +2,12 @@
 public class Owner {
 
 	public int id;
-	public boolean pow;
+	public AutoSys Auto;
 
-	public Owner(int i) {
+	public Owner(int i, AutoSys a1) {
 		this.id=i;
+		this.Auto=a1;
 	}
 	
-	public void power(boolean p1)
-	{
-		this.pow=p1;
-	}
 
 }
